@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first website</title>
+    <style>
+        html, body {
+    overflow-x: hidden;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .background {}
+
+        .f {
+            display: inline;
+            text-align: center;
+            margin-left: 150px;
+        }
+
+        header {
+            background-color: rgba(78, 80, 82, 0.436);
+        }
+
+        .a {
+            display: inline;
+            margin-left: 250px;
+        }
+
+        .background {
+            position: relative;
+            background-image: url('/gitdemo2.0/media/338397.jpg');
+            height: 450px;
+            width: 1024px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .t {
+            position: absolute;
+            top: 30%;
+            left: 22%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            /* optional overlay */
+            padding: 20px;
+            border: 2px solid rgba(173, 216, 230, 0);
+            border-radius: 10px;
+        }
+
+        .r {
+            position: absolute;
+            top: 40%;
+            left: 78%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            /* optional overlay */
+            padding: 20px;
+            border: 2px solid rgba(173, 216, 230, 0);
+        }
+
+        .h {
+            display: flex;
+            padding-bottom: 4px;
+        }
+
+        input::placeholder {
+            text-align: top;
+
+        }
+
+        div button {
+            background-color: rgb(19, 168, 242);
+            border: none;
+            height: 28px;
+            width: 230px;
+            color: white;
+        }
+
+        .parent{
+            border: 2px solid rgb(28, 28, 28);
+            height: 150px;
+            width: 1009px;
+           transform: translatey(470%);
+        }
+
+        .box {
+           
+        }
+
+        .box2 {}
+
+        .box13 {}
+
+        .box {}
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 class="f">BMW</h1>
+            shines like sun
+            <div class="a">
+                Question? call 18000-2357 9854
+            </div>
+        </header>
+    </div>
+    <div class="background ">
+        <div class="t">
+            <p>
+                A complete line of </p>
+            <h1>BMW</h1>
+            <h2>Saftey our priority</h2>
+        </div>
+        <div class="r">
+            contact us today
+            <div class="h">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="First name" style="width:6em;">
+                </div>
+                <div>
+                    <label for="namee"></label>
+                    <input type="text" id="namee" placeholder="last name" style="width:5.54em; margin-left:10px ;">
+                </div>
+
+            </div>
+            <div>
+                <label for="comp"></label>
+                <input type="text" id="comp" placeholder="comapany" style="margin-bottom: 3px;">
+            </div>
+            <div class="h">
+                <div>
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="email" style="width:6em;">
+                </div>
+                <div>
+                    <label for="address"></label>
+                    <input type="text" id="address" placeholder="address" style="width:5.54em; margin-left:10px ;">
+                </div>
+
+            </div>
+
+            <div>
+                <textarea id="message" placeholder=" Message" rows="4" cols="30"
+                    style="margin-bottom: 3px; height:90px ; "></textarea>
+            </div>
+            <div>
+                <button>
+                    SUBMIT
+                </button>
+            </div>
+        </div>
+        <div class="parent">
+            <div class="box box1">
+
+            </div>
+            <div class="box box2">
+
+            </div>
+            <div class="box box3">
+
+            </div>
+        </div>
+</body>
+
+</html>

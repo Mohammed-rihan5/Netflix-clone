@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise layout</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-color: antiquewhite;
+        }
+
+        .container {
+            position: relative;
+            position: sticky;
+            top: 0;
+        }
+
+        .r {
+            font-family: "poppins";
+            display: flex;
+            background-color: grey;
+            border: 2px solid white;
+            border-radius: 43px;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 23px;
+        }
+
+        .border {
+            border: 2px solid black;
+            height: 450px;
+            width: 900px;
+            margin: 65px;
+            display: flex;
+            background-color: rgb(163, 139, 139);
+        }
+
+        .box {
+            border: 2px solid black;
+            margin: 10px;
+            height: 300px;
+            width: 500px;
+            margin: 65px;
+            text-align: center;
+            font-size: 30px;
+            padding: 5px;
+            background-color: beige;
+        }
+
+        .roll {
+            border: 2px solid black;
+            height: 200px;
+            width: 900px;
+            margin: 63px;
+            border-radius: 83px;
+            background-color: white;
+        }
+
+        .q {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 50px;
+        }
+
+        footer {
+            border: 2px solid rgb(163, 139, 139);
+            height: 50px;
+            width: 900px;
+            margin: 14px 10px 0 60px;
+
+
+        }
+
+        .h {
+            /* text-align: center; */
+            display: flex;
+        }
+
+        .v {
+            border: 2px solid black;
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            position: fixed;
+        }
+        .t{
+             display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 116px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="r">
+            <li><a href="/">home</a></li>
+            <li><a href="/">about</a></li>
+            <li><a href="/">contact</a></li>
+            <li><a href="/">help</a></li>
+            
+        </ul>
+    </div>
+    <div class="border">
+        <div class="box box1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde, inventore saepe,
+            minima adipisci tenetur veniam quam vitae praesentium ab explicabo suscipit maiores?</div>
+        <div class="box box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. A nisi minima earum adipisci
+            distinctio facere magnam ullam quaerat, magni corporis tempora suscipit maiores?
+        </div>
+    </div>
+    <div class="v">
+       <button class="t">
+        skip ad not to turn on 
+       </button>
+    </div>
+    <div class="roll">
+        <p class="q">
+            I AM THRILLED TO MAKE THIS WEBSITE
+        </p>
+    </div>
+    <div>
+        <footer> 
+            <ul class="h">
+                <li>help</li>
+                <li>about us</li>
+                <li>&copy copywrite</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
